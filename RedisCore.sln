@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCore", "RedisCore\RedisCore.csproj", "{BDA3727A-97ED-401D-8311-89C7C5B088DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDA3727A-97ED-401D-8311-89C7C5B088DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA3727A-97ED-401D-8311-89C7C5B088DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA3727A-97ED-401D-8311-89C7C5B088DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA3727A-97ED-401D-8311-89C7C5B088DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
