@@ -1,6 +1,6 @@
 using System;
 
-namespace RedisCore
+namespace RedisCore.Models
 {
     public class WeatherForecast
     {
