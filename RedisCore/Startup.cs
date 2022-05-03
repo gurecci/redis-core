@@ -26,6 +26,11 @@ namespace RedisCore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHttpClient();
+            services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = Configuration.GetConnectionString("Redis");
+                options.InstanceName = "RedisCore";
+            });
             services.AddControllers();
         }
 
